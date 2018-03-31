@@ -1,0 +1,188 @@
+:root {
+  --blue: #3f87f3;
+  --darkBlue: #0e5fd8;
+  --footer: #364254;
+  --grey: #f9f9f9;
+}
+
+/* GENERAL */
+.blueText {
+  color: var(--blue);
+  opacity: 0.6;
+}
+
+.whiteText {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.textSectionBlock,
+.imgSectionBlock {
+  height: 100%;
+  width: 24em;
+  margin: 0 2em;
+  font-size: 1.2em;
+  overflow: hidden;
+}
+
+.textSectionBlockShort {
+  width: 6em;
+  margin: 0 0.5em;
+}
+
+.imgSectionBlock {
+  margin: 0;
+}
+
+.heading {
+  font-size: 2.8em;
+  margin: 0;
+}
+
+.textSectionBlockLarge {
+  width: 40em;
+}
+
+.subHeading,
+.subHeadingWhite {
+  font-size: 2em;
+  margin: 0;
+}
+
+.subHeadingWhite {
+  font-size: 1.6em;
+}
+
+.textSection {
+  height: 30vh;
+}
+
+.blueSection {
+  color: #fff;
+  background-color: var(--blue);
+  height: 50vh;
+}
+
+.blueSectionText a {
+  color: #000;
+  text-decoration: none;
+}
+
+.blueStrip {
+  height: 6vh;
+  color: #fff;
+  background-color: var(--darkBlue);
+  letter-spacing: 3px;
+}
+
+.font100 {
+  font-weight: 100;
+}
+
+.font200 {
+  font-weight: 200;
+}
+
+/* <!-- CONTAINER --> */
+#container {
+  color: #555;
+  font-family: 'Libre Franklin', sans-serif;
+  height: 100vh;
+  justify-content: flex-start;
+  width: 100vw;
+}
+
+/* <!-- NAVIGATION --> */
+#navigation {
+}
+
+/* <!-- HOMEPAGE --> */
+#homePage {
+  height: 70vh;
+}
+
+#homePageLeft,
+#homePageRight {
+  position: relative;
+}
+
+#homePageLeft {
+  background-color: var(--grey);
+}
+
+#homePageRight {
+  background-color: var(--blue);
+}
+
+#homePageBigTextLeft,
+#homePageBigTextRight {
+  font-size: 10em;
+  font-weight: 700;
+  overflow: hidden;
+  position: absolute;
+}
+
+#homePageBigTextLeft {
+  left: 0;
+  top: 0;
+}
+
+#homePageBigTextLeft p {
+  color: var(--blue);
+  left: -0.4em;
+  margin: 0;
+  position: relative;
+  top: -0.4em;
+}
+
+#homePageBigTextRight {
+  bottom: 0;
+  opacity: 0.2;
+  right: 0;
+}
+
+#homePageBigTextRight p {
+  color: #fff;
+  left: 0.4em;
+  margin: 0;
+  position: relative;
+  top: 0.4em;
+}
+
+#homePageText p {
+  font-size: 3em;
+  font-weight: 100;
+  margin: 0;
+}
+
+#homePageText p:first-child {
+  opacity: 0.8;
+}
+
+#homePageFruit {
+  position: absolute;
+  left: -19.2em;
+  top: 4em;
+}
+
+#homePageFruit img {
+  height: 28em;
+}
+
+p#productText {
+  font-size: 6em;
+}
+
+#footer {
+  align-items: flex-start;
+  background-color: var(--footer);
+  height: 20vh;
+  color: var(--blue);
+  padding-left: 2em;
+}
+
+#footer p {
+  margin: 0.2em 0.2em;
+  color: #fff;
+  opacity: 0.6;
+}
